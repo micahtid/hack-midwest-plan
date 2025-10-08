@@ -2,8 +2,6 @@
 
 This document explains the transfer of data between front-end and back-end components, showing a clear flow of information.
 
----
-
 ## 1. USER SUBMISSION TO BACK-END API
 
 User submits their startup idea through the web form, which is sent to the back-end for processing.
@@ -17,8 +15,6 @@ User submits their startup idea through the web form, which is sent to the back-
   "description": "A mobile app that uses computer vision to track workout form and provide real-time feedback. Features include real-time form analysis, personalized workout plans, progress tracking, and social sharing capabilities."
 }
 ```
-
----
 
 ## 2. BACK-END DATABASE QUERY
 
@@ -158,8 +154,6 @@ Gemini processes the data and returns a detailed analysis including competitor i
 }
 ```
 
----
-
 ## 5. BACK-END API TO FRONT-END
 
 The back-end packages the user's idea (with suggestion markers), similar startups, and complete analysis into a single response sent to the front-end.
@@ -261,8 +255,6 @@ The back-end packages the user's idea (with suggestion markers), similar startup
   }
 }
 ```
-
----
 
 ## 6. CHATBOT INTERACTION (FRONT-END AND BACK-END)
 
