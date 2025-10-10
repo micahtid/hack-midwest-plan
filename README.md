@@ -4,7 +4,7 @@ A platform that validates startup ideas by comparing them against existing backe
 
 ## Front-End
 
-**Stack**: Next.js, React, TailwindCSS
+**Stack**: Next.js, React, TailwindCSS, Vercel AI SDK
 
 ### Components
 
@@ -22,7 +22,7 @@ A platform that validates startup ideas by comparing them against existing backe
 
 **AI Chatbot**
 - Enables users to ask questions about and edit information
-- Uses Gemini API key
+- Uses Vercel AI SDK with Gemini API key
 - Takes in the result data to provide conversational responses
 
 **Actionable Buttons**
