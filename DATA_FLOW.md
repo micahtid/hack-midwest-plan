@@ -117,42 +117,40 @@ Gemini processes the data and returns a detailed analysis including competitor i
     "personalization": 75,
     "analytics": 65
   },
-  "market_gaps": [
-    "Real-time social interaction during workouts",
-    "Integration with wearable devices",
-    "Gamification elements for motivation",
-    "Affordable pricing tier for beginners"
-  ],
   "suggestions": [
     {
-      "marked_text": "*computer vision*",
-      "suggestion": "Consider expanding to include motion sensor integration for more accurate tracking",
+      "marked_text": "computer vision",
+      "suggestion": "computer vision and motion sensor integration",
       "rationale": "Current competitors rely heavily on camera-only input which has limitations in certain lighting conditions"
     },
     {
-      "marked_text": "*real-time feedback*",
-      "suggestion": "Add haptic feedback integration for immediate corrections",
+      "marked_text": "real-time feedback",
+      "suggestion": "real-time haptic and visual feedback",
       "rationale": "Users responding to visual cues alone miss 40% of form corrections during intense workouts"
     },
     {
-      "marked_text": "*social sharing capabilities*",
-      "suggestion": "Pivot to live workout sessions with friends rather than post-workout sharing",
+      "marked_text": "social sharing capabilities",
+      "suggestion": "live workout sessions with friends",
       "rationale": "Real-time social interaction is an identified market gap with low competition"
     }
   ],
   "pivot_suggestions": [
     {
       "suggestion": "Target corporate wellness programs",
-      "rationale": "Underserved B2B market with higher revenue potential"
+      "rationale": "Enterprise wellness solutions with AI-powered form tracking are underserved with higher B2B revenue potential"
     },
     {
-      "suggestion": "Specialize in specific sports like weightlifting only",
-      "rationale": "Niche focus allows for deeper expertise and less competition"
+      "suggestion": "Focus on real-time social workout features",
+      "rationale": "Real-time social interaction during workouts has low competition in live interactive fitness experiences"
+    },
+    {
+      "suggestion": "Integrate with wearable devices",
+      "rationale": "Integration with wearable devices for holistic fitness data enables comprehensive health tracking beyond visual form analysis"
     }
   ],
   "likelihood_of_success": 72
 }
-```
+```F
 
 ## 5. BACK-END API TO FRONT-END
 
@@ -218,37 +216,35 @@ The back-end packages the user's idea (with suggestion markers), similar startup
       "personalization": 75,
       "analytics": 65
     },
-    "market_gaps": [
-      "Real-time social interaction during workouts",
-      "Integration with wearable devices",
-      "Gamification elements for motivation",
-      "Affordable pricing tier for beginners"
-    ],
     "suggestions": [
       {
-        "marked_text": "*computer vision*",
-        "suggestion": "Consider expanding to include motion sensor integration for more accurate tracking",
+        "marked_text": "computer vision",
+        "suggestion": "computer vision and motion sensor integration",
         "rationale": "Current competitors rely heavily on camera-only input which has limitations in certain lighting conditions"
       },
       {
-        "marked_text": "*real-time feedback*",
-        "suggestion": "Add haptic feedback integration for immediate corrections",
+        "marked_text": "real-time feedback",
+        "suggestion": "real-time haptic and visual feedback",
         "rationale": "Users responding to visual cues alone miss 40% of form corrections during intense workouts"
       },
       {
-        "marked_text": "*social sharing capabilities*",
-        "suggestion": "Pivot to live workout sessions with friends rather than post-workout sharing",
+        "marked_text": "social sharing capabilities",
+        "suggestion": "live workout sessions with friends",
         "rationale": "Real-time social interaction is an identified market gap with low competition"
       }
     ],
     "pivot_suggestions": [
       {
         "suggestion": "Target corporate wellness programs",
-        "rationale": "Underserved B2B market with higher revenue potential"
+        "rationale": "Enterprise wellness solutions with AI-powered form tracking are underserved with higher B2B revenue potential"
       },
       {
-        "suggestion": "Specialize in specific sports like weightlifting only",
-        "rationale": "Niche focus allows for deeper expertise and less competition"
+        "suggestion": "Focus on real-time social workout features",
+        "rationale": "Real-time social interaction during workouts has low competition in live interactive fitness experiences"
+      },
+      {
+        "suggestion": "Integrate with wearable devices",
+        "rationale": "Integration with wearable devices for holistic fitness data enables comprehensive health tracking beyond visual form analysis"
       }
     ],
     "likelihood_of_success": 72
@@ -282,10 +278,6 @@ Users can ask questions about their validation results through the chatbot, whic
           }
         ]
       },
-      "market_gaps": [
-        "Real-time social interaction during workouts",
-        "Integration with wearable devices"
-      ],
       "likelihood_of_success": 72
     }
   }
